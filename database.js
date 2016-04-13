@@ -13,7 +13,7 @@ var VUELOG_DATABASE = {
 
   // Edit your site from here
   deployment: {
-    title: 'Vuelog Demo',
+    title: 'Vuelog',
     url: 'https://myst729.github.io/Vuelog/',
     logo: './static/img/logo.svg',
     folder: './docs',
@@ -42,16 +42,6 @@ var VUELOG_DATABASE = {
       label: 'Archive',
       type: 'archive',
       path: '/archive'
-    },
-    {
-      label: 'Chandeen',
-      type: 'category',
-      path: '/category/chandeen'
-    },
-    {
-      label: 'Lorum Ipsum',
-      type: 'category',
-      path: '/category/lorem-ipsum'
     },
     {
       label: 'Talk Is Cheap',
