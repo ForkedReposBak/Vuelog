@@ -113,13 +113,13 @@ window.VUELOG_DATABASE = {
       date: '2016-10-19'
     },
     {
-      title: 'Using Disqus comment service',
-      slug: 'using-disqus-comment-service',
+      title: 'Using social commenting services',
+      slug: 'using-social-commenting-services',
       category: 'guide',
       date: '2016-04-10'
     },
     {
-      title: '[DEPRECATED] Using Algolia search service',
+      title: '[ONHOLD] Using Algolia search service',
       slug: 'using-algolia-search-service',
       category: 'guide',
       date: '2016-04-09'
