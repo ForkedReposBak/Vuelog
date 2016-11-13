@@ -5,15 +5,17 @@ window.VUELOG_DATABASE = {
     brand: 'Vuelog Demo',
     logo: './static/vuelog.svg',
     home: 'https://myst729.github.io/Vuelog/',
-    base: '/Vuelog',                   // Path to the domain root that serves your site. Set to `''` if your site is under domain root.
-    lang: 'en',                        // Vuelog interface language. Currently only support 'cn' and 'en'.
-    switchLang: true,                  // Allow/disallow visitors to switch interface language.
-    useHomepage: true,                 // Enable the dedicated homepage, otherwise route `/` and `/home` to `/blog`.
-    postsCount: 3,                     // Number of posts listed in a blog/category view.
-    metadataDelimiter: '---',          // The string to separate metadata from actual content in *.md files.
-    excerptDelimiter: '<!-- more -->', // The string to annotate excerpt out of the complete content in *.md files.
-    disqusShortname: 'vuelog',         // Fill in the shortname to integrate Disqus with your blog. Leave it blank to turn it off.
-    spinnerPattern: 'logo'             // Can be either `logo` or `line`, set to other values to disable the loading spinner.
+    base: '/Vuelog',
+    lang: 'en',
+    switchLang: true,
+    useHomepage: true,
+    postsCount: 3,
+    metadataDelimiter: '---',
+    excerptDelimiter: '<!-- more -->',
+    disqusShortname: '', // 'vuelog',
+    intenseDebateAccount: '48039cbd4d547c03251bf62282dfa0d6',
+    livereUid: '', // 'MTAyMC8yNzE0NS8zNzM0',
+    spinnerPattern: 'logo'
   },
 
   navigation: [
