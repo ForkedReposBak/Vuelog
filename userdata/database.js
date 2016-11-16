@@ -1,20 +1,49 @@
-// DO NOT CHANGE THE GLOBAL VARIABLE NAME
+/* DO NOT CHANGE THE GLOBAL VARIABLE NAME */
+/* DO NOT CHANGE THE GLOBAL VARIABLE NAME */
+/* DO NOT CHANGE THE GLOBAL VARIABLE NAME */
 window.VUELOG_DATABASE = {
 
   config: {
+    // The name of your site, will be displayed in browser tab and site header.
     brand: 'Vuelog Demo',
+
+    // The image displayed in site header right beside the brand.
     logo: './static/vuelog.svg',
-    home: 'https://myst729.github.io/Vuelog/',
+
+    // The full URL where your site is hosted.
+    home: 'https://myst729.github.io/Vuelog',
+
+    // Path to the domain root that serves your site, starts with a slash (`/`). Set to `''` if your site is under domain root.
     base: '/Vuelog',
+
+    // Vuelog interface language. Currently only support 'cn' and 'en'.
     lang: 'en',
+
+    // Allow/disallow visitors to switch interface language.
     switchLang: true,
+
+    // Enable the dedicated homepage, otherwise route `/` and `/home` to `/blog`.
     useHomepage: true,
+
+    // Number of posts listed in a blog/category view.
     postsCount: 3,
+
+    // The string to separate metadata from actual content in *.md files.
     metadataDelimiter: '---',
+
+    // The string to annotate excerpt out of the complete content in *.md files.
     excerptDelimiter: '<!-- more -->',
+
+    // Fill in the shortname to integrate Disqus with your blog. Leave it blank to turn it off.
     disqusShortname: '', // 'vuelog',
+
+    // Fill in the account to integrate IntenseDebate with your blog. Leave it blank to turn it off.
     intenseDebateAccount: '48039cbd4d547c03251bf62282dfa0d6',
+
+    // Fill in the uid to integrate LiveRe with your blog. Leave it blank to turn it off.
     livereUid: '', // 'MTAyMC8yNzE0NS8zNzM0',
+
+    // Can be either `logo` or `line`, set to other values to disable the loading spinner.
     spinnerPattern: 'logo'
   },
 
@@ -42,7 +71,7 @@ window.VUELOG_DATABASE = {
     {
       label: 'Links',
       type: 'dropdown',
-      // path: 'dropdown can be linkable too',
+      path: '', // (OPTIONAL) dropdown can be routable too if you set a valid route path
       children: [
         {
           label: 'Weibo',
@@ -66,13 +95,13 @@ window.VUELOG_DATABASE = {
   pages: [
     {
       title: 'All about Vuelog',
-      // titleless: true, // set to true if you want to hide title in single view
-      slug: 'all-about-vuelog'
+      slug: 'all-about-vuelog',
+      titleless: false // (OPTIONAL) set this to true if you want to hide the title in page view (same for post)
     },
     {
       title: 'Changelog',
-      // commentless: true, // set to true if you want to disable comments for this particular page or post
-      slug: 'changelog'
+      slug: 'changelog',
+      commentless: false // (OPTIONAL) set this to true if you want to disable comments for the particular page (same for post)
     }
   ],
 
